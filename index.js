@@ -9,8 +9,10 @@ const port = process.env.PORT || 5000;
 
 app.use(cors({
     origin: [
+        "http://localhost:5173",
         "http://localhost:5174",
-        "https://your-frontend-project.vercel.app" 
+        "http://localhost:5175", 
+        "https://your-frontend-project.vercel.app" // আপনার আসল ফ্রন্টএন্ড লিঙ্ক এখানে দিন
     ],
     credentials: true
 }));

@@ -12,7 +12,7 @@ app.use(cors({
         "http://localhost:5173",
         "http://localhost:5174",
         "http://localhost:5175", 
-        "https://your-frontend-project.vercel.app" // আপনার আসল ফ্রন্টএন্ড লিঙ্ক এখানে দিন
+        "https://library-management-system-frontend-pi.vercel.app" 
     ],
     credentials: true
 }));
